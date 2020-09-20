@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding:0;
+box-sizing: border-box;
+
+}
+
+.contenedor-celular{
+ background-color: black;
+ width: 360px;
+ height: 640px;
+ border-radius: 10px;
+ -webkit-border-radius:;
+ -moz-border-radius:;
+ -ms-border-radius:;
+ -o-border-radius:;
+ display: flex;
+ display: -webkit-flex;
+ display: -ms-flexbox;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.caja-superior{
+    background-color: black;
+    width: 360px;
+    height: 80px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;   
+
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+
+    
+}
+
+#camara {
+    width:20px;
+    height:20px;
+    margin: 5px;
+}
+
+@keyframes animacion{
+0%{background-color: red;}
+25%{backgrund-color:green;}
+50%{background-color: rgb(47, 0, 255);}
+100%{background-color: rgb(255, 240, 24);}
+
+}
+.notificaciones {
+    background-color: red;
+    animation-name:animacion;
+    animation-duration: 5s;
+    width:20px;
+    height:20px;
+    border-radius: 40%;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    -ms-border-radius: 40%;
+    -o-border-radius: 40%;
+    margin:5px;
+}
+
+.audio {
+    width:6px;
+    height:80px;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin:5px;
+   position: fixed;
+   left:355px;
+   top: 90px;
+}
+
+
+.pantalla{
+background-color: white;
+width: 350px;
+height: 450px;
+margin: 0 auto;
+text-align: center;
+justify-content: center;
+
+
+display: flex;
+display: -webkit-flex;
+display: -ms-flexbox;
+flex-direction: row;
+flex-wrap: wrap;
+
+justify-content: center;
+align-items: center;
+
+}
+
+#logo{
+    width: 150px;
+    height:40px;
+}
+
+.caja-inferior{
+    color: black;
+    width: 360px;
+    height: 110px;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+
+display: flex;
+display: -webkit-flex;
+display: -ms-flexbox;
+flex-direction: row;
+flex-wrap: wrap;
+
+justify-content: center;
+align-items: center;
+
+}
+
+button{
+    border-style: solid 3px white ;
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    border: radius 30px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+   
+}
